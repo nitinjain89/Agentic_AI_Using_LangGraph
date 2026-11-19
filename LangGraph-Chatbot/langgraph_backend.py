@@ -8,7 +8,7 @@ from langgraph.graph.message import add_messages
 
 load_dotenv()
 
-llm = ChatGroq(model='qwen/qwen3.8-27b', max_tokens=500)
+llm = ChatGroq(model='qwen/qwen3.8-27b', max_tokens=5000)
 
 # define state 
 class ChatState(TypedDict):
